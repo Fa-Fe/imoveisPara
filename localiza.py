@@ -18,6 +18,10 @@ def obter_coordenadas(endereco):
 
 endereço_teste = "RUA FERNANDO FERRARI, 408 - Santa Luzia, Pará, Brasil"
 latitude, longitude = obter_coordenadas(endereço_teste)
+
+
+
+
 if latitude and longitude:
     print(f"Endereço: {endereço_teste}")
     print(latitude, longitude)
